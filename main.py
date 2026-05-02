@@ -6,10 +6,10 @@ import requests
 app = Flask(__name__)
 
 # --- إعدادات الحساب (ضعها في Render Environment Variables) ---
-BINANCE_API_KEY = os.getenv("BINANCE_API_KEY")
-BINANCE_SECRET_KEY = os.getenv("BINANCE_SECRET_KEY")
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BINANCE_API_KEY = os.getenv("XaDvU5yfRLk6cOFtLPmKhUnfGe9LO5c85EGY84gWLyDuwvRn4NbghLUlCdzDh4eT")
+BINANCE_SECRET_KEY = os.getenv("jO7OYkZ1Am2QXRxUtZpdZd5qazFD5OFXh1ZkrUAwYYUjUauQZeBWaCFoZYekKD2V")
+TELEGRAM_TOKEN = os.getenv("8393656924:AAEdgUPLXXS6bEQWphnmDAQiz_mfsnYO6KI")
+CHAT_ID = os.getenv("8393656924")
 
 # ربط باينانس
 client = Client(BINANCE_API_KEY, BINANCE_SECRET_KEY)
